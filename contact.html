@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laylock Hotel</title>
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./contact.css">
+</head>
+
+<body>
+    <ul class="topnav">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./reservation.html">Reservation</a></li>
+        <li><a href="./location.html">Location</a></li>
+        <li><a class="active" href="#contact">Contact</a></li>
+        <div class="right"><img class="logo" src="./hotel logo.jpg" width="50" height="50"></div>
+    </ul>
+    
+    <h2>FEED BACK FORM</h2>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Mail Id</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email" name="mailid" placeholder="Your mail id..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <option value="none">Select Country</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="russia">Russia</option>
+                        <option value="japan">Japan</option>
+                        <option value="india">India</option>
+                        <option value="china">China</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="feed_back">Feed Back</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+
+    <h2>FEEDBACKS</h2>
+    <div class="scrollable">
+        <table id="feedBack">
+            <colgroup>
+                <col class="firstCol" />
+                <col class="secondCol" />
+                <col class="thirdCol" />
+            </colgroup>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Message</th>
+            </tr>
+            <tr>
+                <td>Rahul Kawari</td>
+                <td>12100161@students.koi.edu.np</td>
+                <td>The website is very good.</td>
+            </tr>
+            
+            <tr>
+                <td>Rahul Kawari</td>
+                <td>12100161@students.koi.edu.np</td>
+                <td>The website is very good.</td>
+            </tr>
+
+            <tr>
+                <td>Rahul Kawari</td>
+                <td>12100161@students.koi.edu.np</td>
+                <td>The website is very good.</td>
+            </tr>
+
+            <tr>
+                <td>Rahul Kawari</td>
+                <td>12100161@students.koi.edu.np</td>
+                <td>The website is very good.</td>
+            </tr>
+
+            <tr>
+                <td>Rahul Kawari</td>
+                <td>12100161@students.koi.edu.np</td>
+                <td>The website is very good.</td>
+            </tr>
+            
+            <tr>
+                <td>Rahul Kawari</td>
+                <td>12100161@students.koi.edu.np</td>
+                <td>The website is very good.</td>
+            </tr>
+
+            <tr>
+                <td>Rahul Kawari</td>
+                <td>12100161@students.koi.edu.np</td>
+                <td>The website is very good.</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <footer>
+        <p>College: KOI<br>
+            Email: <a href="mailto:12100161@students.koi.edu.au">12100161@students.koi.edu.au</a><br/>
+            Phone: +615869553
+        </p>
+    </footer>
+</body>
+
+</html>

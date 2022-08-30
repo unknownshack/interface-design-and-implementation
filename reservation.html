@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laylock Hotel</title>
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./reservation.css">
+</head>
+
+<body>
+    <ul class="topnav">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a class="active" href="#reservation">Reservation</a></li>
+        <li><a href="./location.html">Location</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <div class="right"><img class="logo" src="./hotel logo.jpg" width="50" height="50"></div>
+    </ul>
+    
+
+    <div class="container">
+        <form >
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Full Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="address">Address</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="address" name="address" placeholder="Your address..">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-25">
+                    <label for="roomtype">Type of Room</label>
+                </div>
+                <div class="col-75">
+                    <select id="roomtype" name="roomtype">
+                        <option value="SingleRoom">Single Room</option>
+                        <option value="Sico">Sico</option>
+                        <option value="Lanai">Lanai</option>
+                        <option value="Suite">Suite</option>
+                        <option value="Cabana">Cabana</option>
+                        <option value="DuplexRoom">Duplex Room</option>
+                        <option value="TwinRoom">Twin Room</option>
+                        <option value="DeluxeRoom">Deluxe Room</option>
+                        <option value="DoubleRoom">Double Room</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="room#">Number of Rooms</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="room#" name="room#" placeholder="No of Room..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="bed#">Number of Beds</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="bed#" name="bed#" placeholder="No of Beds..">
+                </div>
+            </div>
+        
+            <br>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
